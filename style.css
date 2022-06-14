@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 main,
 footer,
 header {
@@ -10,9 +13,27 @@ header {
   width: 1000px;
   margin: 0 calc(50% - 500px);
 }
-img {
+header img {
   float: left;
+  width: 48px;
+  height: auto;
 }
-.header-links {
+nav {
   float: right;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  margin-left: 50px;
+}
+a:first-child {
+  margin: 0;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+  color: #662c8c;
 }
