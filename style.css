@@ -13,6 +13,12 @@ header {
   width: 1000px;
   margin: 0 calc(50% - 500px);
 }
+
+header,
+main {
+  margin-bottom: 60px;
+}
+
 header img {
   float: left;
   width: 48px;
@@ -22,18 +28,28 @@ nav {
   float: right;
   margin-left: 50px;
 }
-
-a {
+nav > a {
   text-decoration: none;
   color: #333;
   font-size: 20px;
   margin-left: 50px;
 }
-a:first-child {
+nav a:first-child {
   margin: 0;
 }
 
 nav > a:hover {
   text-decoration: underline;
   color: #662c8c;
+}
+
+footer div {
+  float: left;
+}
+footer p {
+  float: right;
+}
+
+footer div > a {
+  background-color: yellow;
 }
