@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <header>
+    <header class="container">
       <img src="./img/Logo.png" alt="Clay logo" />
       <nav class="header-links">
         <a href="" class="link">About</a>
@@ -18,33 +18,29 @@
         <a href="" class="link">Contact</a>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <div class="left-side">
-        <h1>404</h1>
-        <h2>Lost in Space</h2>
-        <div class="bar-element"></div>
+        <h1 class="main-heading">
+          <span class="span">404</span><br />
+          <span class="span-bar">Lost</span> in Space
+        </h1>
+        <!-- <div class="bar-element"></div> -->
         <p class="main-text">
           You have reached the edge of the universe. The page you requested
           could not be found. Don't worry and return to the previous page.
         </p>
-        <div><a href="">Go home</a><a href="">Go back</a></div>
+        <div class="buttons-block">
+          <a class="button go-home" href="">Go home</a
+          ><a class="button go-back" href="">Back</a>
+        </div>
       </div>
-      <img src="./img/Astronautas.png" alt="Astronaut image" />
-
-      <a target="_blank" href="https://en.wikipedia.org/wiki/Email_address">
-        Local</a
-      >
-      <a target="_blank" href="https://en.wikipedia.org/wiki/Email_address"
-        >Domain</a
-      >
-      <a
-        target="_blank"
-        href="https://en.wikipedia.org/wiki/Email_address#Local-part"
-      >
-        I18n</a
-      >
+      <img
+        class="right-side"
+        src="./img/Astronautas.png"
+        alt="Astronaut image"
+      />
     </main>
-    <footer>
+    <footer class="container">
       <div class="media-elements">
         <a class="fa fa-facebook-square" target="_blank" href=""></a>
         <a class="fa fa-twitter-square" target="_blank" href=""></a>
